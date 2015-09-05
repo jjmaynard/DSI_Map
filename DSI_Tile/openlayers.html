@@ -16,7 +16,7 @@
             <script src="http://www.openlayers.org/api/2.12/OpenLayers.js"></script>
             <script>
               var map;
-              var mapBounds = new OpenLayers.Bounds( -2356445.6652, 682139.0882, -48445.6652, 3172139.0882);
+              var mapBounds = new OpenLayers.Bounds( -127.947572045, 18.531367896, -96.441972045, 51.660967896);
               var mapMinZoom = 1;
               var mapMaxZoom = 6;
               var emptyTileURL = "http://www.maptiler.org/img/none.png";
@@ -26,8 +26,8 @@
                   var options = {
                       div: "map",
                       controls: [],
-                      maxExtent: new OpenLayers.Bounds(-2356445.6652, 682139.0882, -48445.6652, 3172139.0882),
-                      maxResolution: 16000.000000,
+                      maxExtent: new OpenLayers.Bounds(-127.947572045, 18.531367896, -96.441972045, 51.660967896),
+                      maxResolution: 0.185600,
                       numZoomLevels: 7
                   };
                   map = new OpenLayers.Map(options);
